@@ -5,7 +5,6 @@ var tl = gsap.timeline({
         end: "+=" + (window.innerHeight * 8),
         pin : true,
         scrub : true,
-        markers : true
     }
 })
 tl.to("#home #overlay #center",{
@@ -85,7 +84,6 @@ var tl2 = gsap.timeline({
         end: "+=" + (window.innerHeight * 8),
         pin : true,
         scrub : true,
-        markers : true
     }
 })
 gsap.set("#soverlay #stop .circle",{ scale : 0.5 })
